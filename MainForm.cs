@@ -99,6 +99,12 @@ namespace MultiFaceRec
                 captureInProgress = !captureInProgress;
             }
         }
+
+        private void FrmMainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnStopCamera_Click(object sender, EventArgs e)
         {
             Cameraoncheck = false;

@@ -159,10 +159,6 @@
             this.lbltime.TabIndex = 19;
             this.lbltime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // timer1
-            // 
-       
-            // 
             // cmbModule
             // 
             this.cmbModule.BackColor = System.Drawing.Color.White;
@@ -245,7 +241,6 @@
             this.btnSubmitAttendance.TabIndex = 38;
             this.btnSubmitAttendance.Text = "Submit Attendance";
             this.btnSubmitAttendance.UseVisualStyleBackColor = true;
-          
             // 
             // btnStopCamera
             // 
@@ -274,7 +269,7 @@
             // 
             this.btnTrainFaces.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrainFaces.ForeColor = System.Drawing.Color.Black;
-            this.btnTrainFaces.Location = new System.Drawing.Point(203, 293);
+            this.btnTrainFaces.Location = new System.Drawing.Point(237, 296);
             this.btnTrainFaces.Margin = new System.Windows.Forms.Padding(2);
             this.btnTrainFaces.Name = "btnTrainFaces";
             this.btnTrainFaces.Size = new System.Drawing.Size(83, 55);
@@ -308,6 +303,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMainForm";
+            this.Load += new System.EventHandler(this.FrmMainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Imbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
