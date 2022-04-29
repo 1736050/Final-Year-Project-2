@@ -87,6 +87,7 @@
             this.Citxt.Name = "Citxt";
             this.Citxt.Size = new System.Drawing.Size(121, 21);
             this.Citxt.TabIndex = 87;
+            this.Citxt.SelectionChangeCommitted += new System.EventHandler(this.Citxt_SelectionChangeCommitted);
             // 
             // label2
             // 

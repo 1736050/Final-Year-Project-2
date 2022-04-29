@@ -84,20 +84,20 @@ namespace MultiFaceRec
 
         private void StAddbtn_Click(object sender, EventArgs e)
         {
-            if (Fntxt.Text == "" || Sntxt.Text == "" || Dbtxt.Text == "" || Gntxt.Text == "" || Pntxt.Text == "" || Adtxt.Text == "" || Cotxt.Text == "" || Coitxt.Text == "" || Imbox.Image == null)
+            if (Fntxt.Text == "" || Sntxt.Text == "" || Dbtxt.Text == "" || Gntxt.Text == "" || Pntxt.Text == "" || Adtxt.Text == "" || Cotxt.Text == "" || Coitxt.Text == "" )
             {
                 MessageBox.Show("Missing Inforamtion");
             }
             else
             {
-                byte[] Imbox = null;
-                FileStream Streem = new FileStream(imgLocation, FileMode.Open, FileAccess.Read);
-                BinaryReader brs = new BinaryReader(Streem);
-                Imbox = brs.ReadBytes((int)Streem.Length);
+               // byte[] Imbox = null;
+               //// FileStream Streem = new FileStream(imgLocation, FileMode.Open, FileAccess.Read);
+               // BinaryReader brs = new BinaryReader(Streem);
+               // Imbox = brs.ReadBytes((int)Streem.Length);
                 try
                 {
                     Con.Open();
-                    SqlCommand cmd = new SqlCommand("Insert into StudentRegistrationTable(Firstname,Surname,Dob,Gender,Course,Phonenumber,Address,Image,CourseId2)Values(@DF,@DS,@DB,@DG,@DC,@DP,@DA,@images,@CI)", Con);
+                    SqlCommand cmd = new SqlCommand("Insert into StudentRegistrationTable(Firstname,Surname,Dob,Gender,Course,Phonenumber,Address,CourseId2)Values(@DF,@DS,@DB,@DG,@DC,@DP,@DA,@CI)", Con);
                     cmd.Parameters.AddWithValue("@DF", Fntxt.Text);
                     cmd.Parameters.AddWithValue("@DS", Sntxt.Text);
                     cmd.Parameters.AddWithValue("@DB", Dbtxt.Text);
@@ -105,7 +105,7 @@ namespace MultiFaceRec
                     cmd.Parameters.AddWithValue("@DC", Cotxt.Text);
                     cmd.Parameters.AddWithValue("@DP", Pntxt.Text);
                     cmd.Parameters.AddWithValue("@DA", Adtxt.Text);
-                    cmd.Parameters.AddWithValue("@images", Imbox);
+                   // cmd.Parameters.AddWithValue("@images", Imbox);
                     cmd.Parameters.AddWithValue("@CI", Coitxt.Text);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Student Registered Sucessfully");
@@ -150,10 +150,10 @@ namespace MultiFaceRec
             }
             else
             {
-                byte[] Imbox = null;
-                FileStream Streem = new FileStream(imgLocation, FileMode.Open, FileAccess.Read);
-                BinaryReader brs = new BinaryReader(Streem);
-                Imbox = brs.ReadBytes((int)Streem.Length);
+               // byte[] Imbox = null;
+               // FileStream Streem = new FileStream(imgLocation, FileMode.Open, FileAccess.Read);
+                //BinaryReader brs = new BinaryReader(Streem);
+                //Imbox = brs.ReadBytes((int)Streem.Length);
 
                 try
                 {
@@ -325,6 +325,11 @@ namespace MultiFaceRec
                 imgLocation = dialog.FileName.ToString();
                 Imbox.ImageLocation = imgLocation;
             }
+        }
+
+        private void Coitxt_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            getcoursename();
         }
     }//
 }

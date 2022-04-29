@@ -353,5 +353,10 @@ namespace MultiFaceRec
                 Imbox.ImageLocation = imgLocation;
             }
         }
+
+        private void Citxt_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            getcoursename();
+        }
     }//
 }

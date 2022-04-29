@@ -150,5 +150,10 @@ namespace MultiFaceRec
         {
             Misdashbtn.BackColor = Color.FromArgb(24, 30, 54);
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

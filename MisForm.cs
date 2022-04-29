@@ -34,7 +34,7 @@ namespace MultiFaceRec
             r = cmd.ExecuteReader();
             DataTable dt = new DataTable();
             dt.Load(r);
-            // dt.Columns.Add("CourseId", typeof(int));
+            //dt.Columns.Add("CourseId", typeof(int));
             Citxt2.ValueMember = "CourseId";
             Citxt2.DataSource = dt;
             Con.Close();

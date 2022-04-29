@@ -47,14 +47,14 @@
             // 
             // Ustxt
             // 
-            this.Ustxt.Location = new System.Drawing.Point(210, 284);
+            this.Ustxt.Location = new System.Drawing.Point(320, 188);
             this.Ustxt.Name = "Ustxt";
             this.Ustxt.Size = new System.Drawing.Size(159, 20);
             this.Ustxt.TabIndex = 79;
             // 
             // Pstxt
             // 
-            this.Pstxt.Location = new System.Drawing.Point(210, 318);
+            this.Pstxt.Location = new System.Drawing.Point(320, 222);
             this.Pstxt.Name = "Pstxt";
             this.Pstxt.PasswordChar = '*';
             this.Pstxt.Size = new System.Drawing.Size(159, 20);
@@ -66,7 +66,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(116, 285);
+            this.label2.Location = new System.Drawing.Point(226, 189);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 19);
             this.label2.TabIndex = 77;
@@ -78,7 +78,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(116, 318);
+            this.label1.Location = new System.Drawing.Point(226, 222);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 19);
             this.label1.TabIndex = 76;
@@ -87,7 +87,7 @@
             // Loginbt
             // 
             this.Loginbt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Loginbt.Location = new System.Drawing.Point(240, 402);
+            this.Loginbt.Location = new System.Drawing.Point(350, 306);
             this.Loginbt.Name = "Loginbt";
             this.Loginbt.Size = new System.Drawing.Size(75, 23);
             this.Loginbt.TabIndex = 75;
@@ -105,7 +105,7 @@
             "Student",
             "Teacher",
             "Admin"});
-            this.Uttxt.Location = new System.Drawing.Point(210, 354);
+            this.Uttxt.Location = new System.Drawing.Point(320, 258);
             this.Uttxt.Name = "Uttxt";
             this.Uttxt.Size = new System.Drawing.Size(159, 23);
             this.Uttxt.TabIndex = 74;
@@ -117,7 +117,7 @@
             this.SubUserTypelb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.SubUserTypelb.Font = new System.Drawing.Font("Nirmala UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubUserTypelb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.SubUserTypelb.Location = new System.Drawing.Point(116, 352);
+            this.SubUserTypelb.Location = new System.Drawing.Point(226, 256);
             this.SubUserTypelb.Name = "SubUserTypelb";
             this.SubUserTypelb.Size = new System.Drawing.Size(71, 19);
             this.SubUserTypelb.TabIndex = 73;

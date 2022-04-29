@@ -75,6 +75,7 @@
             this.Coitxt.Name = "Coitxt";
             this.Coitxt.Size = new System.Drawing.Size(121, 21);
             this.Coitxt.TabIndex = 62;
+            this.Coitxt.SelectionChangeCommitted += new System.EventHandler(this.Coitxt_SelectionChangeCommitted);
             // 
             // label1
             // 
