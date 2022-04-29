@@ -382,6 +382,7 @@
             this.Controls.Add(this.Tefnlb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TeacherRegistrationForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TeacherRegistrationForm";
             this.Load += new System.EventHandler(this.TeacherRegistrationForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.StDGV)).EndInit();

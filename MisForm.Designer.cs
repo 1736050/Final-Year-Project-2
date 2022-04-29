@@ -371,6 +371,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MisForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MisForm";
             this.Load += new System.EventHandler(this.MisForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.StDGV2)).EndInit();

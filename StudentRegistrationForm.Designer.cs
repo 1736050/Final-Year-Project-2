@@ -363,6 +363,7 @@
             this.Controls.Add(this.Stfnlb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StudentRegistrationForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StudentRegistrationForm";
             this.Load += new System.EventHandler(this.StudentRegistrationForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.StDGV)).EndInit();

@@ -170,6 +170,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Studentform";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Studentform";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

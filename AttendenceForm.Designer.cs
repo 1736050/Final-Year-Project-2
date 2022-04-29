@@ -325,6 +325,7 @@
             this.Controls.Add(this.StDGV);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AttendenceForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AttendenceForm";
             this.Load += new System.EventHandler(this.AttendenceForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.StDGV)).EndInit();
